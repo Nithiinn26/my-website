@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Trainee Details — Portal Recreation</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="announcement">
+
+    <a href="#result">Click here to view CTS Answer / Examination Result</a>
+
+  </div>
+
+  <header class="header">
+
+    <button class="hamburger" aria-label="Open menu"
+
+      id="menuButton" aria-expanded="false">☰</button>
+
+    <div class="brand-strip" aria-label="Portal header logos">
+
+      <img src="./header-logos-lightblue.png"
+
+        alt="Ministry, Skill India, DGT and ITI logos"
+
+        class="header-logo-image">
+
+    </div>
+
+    <div class="header-actions">
+
+      <a href="https://dgt.skillindiadigital.gov.in/result" class="action result">RESULT</a>
+
+      <a href="#" class="action instructor" id="instructorRegisterBtn">Instructor self registration on NIMS</a>
+      <a href="#login" class="action login">LOGIN</a>
+
+    </div>
+
+  </header>
+
+  <nav class="navigation" id="navigation">
+
+    <div class="nav-dropdown">
+
+      <button class="nav-trigger" aria-expanded="false">
+
+        GRIEVANCE <span class="arrow" aria-hidden="true"></span>
+
+      </button>
+
+      <div class="dropdown-menu">
+
+        <a href="#raise-grievance">Raise Grievance</a>
+
+        <a href="#check-status">Check Status</a>
+
+      </div>
+
+    </div>
+
+    <div class="nav-dropdown">
+
+      <button class="nav-trigger" aria-expanded="false">
+
+        DOWNLOAD <span class="arrow" aria-hidden="true"></span>
+
+      </button>
+
+      <div class="dropdown-menu">
+
+        <a href="#marksheet">Marksheet</a>
+
+        <a href="#certificate">Certificate</a>
+
+        <div class="submenu-parent">
+
+          <button class="submenu-trigger" aria-expanded="false">
+
+            Offline legacy Upload Templates
+
+            <span class="submenu-arrow">›</span>
+
+          </button>
+
+          <div class="submenu">
+
+            <a href="#legacy-template">Upload Templates</a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="nav-dropdown">
+
+      <button class="nav-trigger" aria-expanded="false">
+
+        VERIFICATION <span class="arrow" aria-hidden="true"></span>
+
+      </button>
+
+      <div class="dropdown-menu">
+
+        <a href="#verification-marksheet">Marksheet</a>
+
+        <a href="#verification-certificate">Certificate</a>
+
+      </div>
+
+    </div>
+
+    <!-- IMPORTANT LINKS -->
+
+    <div class="nav-dropdown">
+
+      <button class="nav-trigger" aria-expanded="false">
+
+        IMPORTANT LINKS <span class="arrow" aria-hidden="true"></span>
+
+      </button>
+
+      <div class="dropdown-menu">
+
+        <a href="https://dgt.gov.in/hi"
+
+          target="\_blank" rel="noopener noreferrer">DGT</a>
+
+        <a href="https://www.apprenticeshipindia.gov.in/"
+
+          target="\_blank" rel="noopener noreferrer">Apprenticeship</a>
+
+        <a href="#iti-search">ITI Search</a>
+
+        <a href="#nios">N.I.O.S.</a>
+
+      </div>
+
+    </div>
+
+    <a href="https://dgt.skillindiadigital.gov.in/registration">REGISTER AS EXAMINER</a>
+
+    <a class="nav-link" href="https://help-dgt.skillindiadigital.gov.in/portal/en/home">HELP &amp; SUPPORT</a>
+
+  </nav>
+
+  <main class="content">
+
+    <!-- TRAINEE DETAILS -->
+
+    <section class="trainee-card" aria-labelledby="pageTitle">
+
+      <h1 id="pageTitle">Trainee Details</h1>
+
+      <div class="card-content">
+
+        <div class="portrait-frame">
+
+          <img src="profile.jpg" alt="Trainee profile photo"
+
+            onerror="this.style.display='none';document.getElementById('photoPlaceholder').style.display='flex'">
+
+          <div id="photoPlaceholder" class="photo-placeholder">PHOTO</div>
+
+        </div>
+
+        <div class="details">
+
+          <div class="column">
+
+            <div class="detail-row"><strong>Roll No</strong><span>R180829024557</span></div>
+
+            <div class="detail-row"><strong>Father Name</strong><span>DEVAPPA LACHCHAPUR</span></div>
+
+            <div class="detail-row"><strong>Trade Name</strong><span>Fitter</span></div>
+
+            <div class="detail-row"><strong>Date of Birth</strong><span>01-Jun-1997</span></div>
+
+            <div class="detail-row"><strong>ITI Name</strong><span>Sri Siddarameshwara ITI Raichur</span></div>
+
+            <div class="detail-row"><strong>Shift</strong><span>1</span></div>
+
+            <div class="detail-row"><strong>Training Duration</strong><span>--</span></div>
+
+            <div class="detail-row"><strong>Certificate issue date</strong><span>30-May-2021</span></div>
+
+          </div>
+
+          <div class="column">
+
+            <div class="detail-row"><strong>Name</strong><span>MALLIKARJUN</span></div>
+
+            <div class="detail-row"><strong>Trade Code</strong><span>227</span></div>
+
+            <div class="detail-row"><strong>Admission Year</strong><span>2018</span></div>
+
+            <div class="detail-row"><strong>ITI Code</strong><span>PU29000997</span></div>
+
+            <div class="detail-row"><strong>ITI Address</strong><span>Industrial Estate Hyderabad Road Raichur</span></div>
+
+            <div class="detail-row"><strong>Unit</strong><span>1</span></div>
+
+            <div class="detail-row"><strong>Certified</strong><span>Yes</span></div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- RAISE GRIEVANCE -->
+
+    <section id="raise-grievance" class="grievance-page" hidden>
+
+      <h2 class="grievance-heading">Grievance</h2>
+
+      <div class="grievance-form-card">
+
+        <form id="grievanceForm">
+
+          <div class="grievance-grid">
+
+            <div class="form-field">
+
+              <label for="scheme">* Scheme Name</label>
+
+              <select id="scheme" name="scheme" required>
+
+                <option value="CTS" selected>CTS</option>
+
+              </select>
+
+            </div>
+
+            <fieldset class="form-field applicant-field">
+
+              <legend>* Please select</legend>
+
+              <label class="radio-option">
+
+                <input type="radio" name="applicantType" value="Trainee" checked>
+
+                Trainee
+
+              </label>
+
+              <label class="radio-option">
+
+                <input type="radio" name="applicantType" value="Approver">
+
+                Nodal ITI/NSTI Approver
+
+              </label>
+
+            </fieldset>
+
+            <div class="form-field">
+
+              <label for="schemePRN">* PRN</label>
+
+              <input type="text" id="schemePRN" name="prn" placeholder="Enter PRN" required>
+
+            </div>
+
+            <div class="form-field">
+
+              <label for="admissionYear">* Admission Year</label>
+
+              <select id="admissionYear" name="admissionYear" required>
+
+                <option value="">Select Admission Year</option>
+
+                <option>2026</option><option>2025</option><option>2024</option>
+
+                <option>2023</option><option>2022</option><option>2021</option>
+
+                <option>2020</option><option>2019</option><option>2018</option>
+
+              </select>
+
+            </div>
+
+            <div class="form-field">
+
+              <label for="dob">* DOB</label>
+
+              <input type="date" id="dob" name="dob" required>
+
+            </div>
+
+          </div>
+
+          <div class="grievance-submit">
+
+            <button type="submit">GET DETAILS</button>
+
+          </div>
+
+          <p id="grievanceMessage" role="status"></p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+    <!-- GRIEVANCE STATUS -->
+
+    <section id="check-status" class="grievance-page" hidden>
+
+      <h2 class="grievance-heading">Grievance Status</h2>
+
+      <div class="grievance-form-card">
+
+        <form id="statusForm">
+
+          <div class="status-scheme">
+
+            <div class="form-field">
+
+              <label for="statusScheme">* Scheme Name</label>
+
+              <select id="statusScheme" name="scheme" required>
+
+                <option value="CTS" selected>CTS</option>
+
+              </select>
+
+            </div>
+
+          </div>
+
+          <div class="status-search-options">
+
+            <label class="radio-option">
+
+              <input type="radio" name="statusSearchType" value="prn" checked>
+
+              Search through PRN, Admission Year and DOB
+
+            </label>
+
+            <label class="radio-option">
+
+              <input type="radio" name="statusSearchType" value="grievanceId">
+
+              Search through Grievance ID
+
+            </label>
+
+          </div>
+
+          <div id="prnSearchFields" class="status-grid">
+
+            <div class="form-field">
+
+              <label for="statusAdmissionYear">* Admission Year</label>
+
+              <select id="statusAdmissionYear" name="admissionYear" required>
+
+                <option value="">Select Admission Year</option>
+
+                <option>2026</option><option>2025</option><option>2024</option>
+
+                <option>2023</option><option>2022</option><option>2021</option>
+
+                <option>2020</option><option>2019</option><option>2018</option>
+
+              </select>
+
+            </div>
+
+            <div class="form-field">
+
+              <label for="statusPRN">* PRN</label>
+
+              <input type="text" id="statusPRN" name="prn" placeholder="Enter PRN" required>
+
+            </div>
+
+            <div class="form-field">
+
+              <label for="statusDOB">* DOB</label>
+
+              <input type="date" id="statusDOB" name="dob" required>
+
+            </div>
+
+          </div>
+
+          <div id="grievanceIdFields" class="status-grid" hidden>
+
+            <div class="form-field">
+
+              <label for="grievanceId">* Grievance ID</label>
+
+              <input type="text" id="grievanceId" name="grievanceId"
+
+                placeholder="Enter Grievance ID" disabled required>
+
+            </div>
+
+          </div>
+
+          <div class="grievance-submit">
+
+            <button type="submit">SUBMIT</button>
+
+          </div>
+
+          <p id="statusMessage" role="status"></p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+    <!-- DOWNLOAD MARKSHEET -->
+
+    <section id="marksheet" class="marksheet-page" hidden>
+
+      <h2 class="marksheet-heading">Download Marksheet</h2>
+
+      <div class="marksheet-form-card">
+
+        <form id="marksheetForm">
+
+          <div class="form-field">
+
+            <label for="marksheetScheme">Scheme Type</label>
+
+            <select id="marksheetScheme" name="scheme" required>
+
+              <option value="CTS" selected>CTS</option>
+
+            </select>
+
+          </div>
+
+          <div class="form-field">
+
+            <label for="marksheetPRN">PRN Number</label>
+
+            <input type="text" id="marksheetPRN" name="prn"
+
+              placeholder="Enter PRN Number" required>
+
+          </div>
+
+          <div class="form-field">
+
+            <label for="marksheetDOB">DOB</label>
+
+            <input type="date" id="marksheetDOB" name="dob" required>
+
+          </div>
+
+          <div class="marksheet-submit">
+
+            <button type="submit">VIEW DETAILS</button>
+
+          </div>
+
+          <p id="marksheetMessage" role="status"></p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+    <!-- DOWNLOAD CERTIFICATE -->
+
+    <section id="certificate" class="certificate-page" hidden>
+
+      <h2 class="certificate-heading">Download Certificate</h2>
+
+      <div class="certificate-form-card">
+
+        <form id="certificateForm">
+
+          <div class="form-field">
+
+            <label for="certificateScheme">Scheme Type</label>
+
+            <select id="certificateScheme" name="scheme" required>
+
+              <option value="CTS" selected>CTS</option>
+
+            </select>
+
+          </div>
+
+          <div class="certificate-category">
+
+            <div class="category-title">Select Admission Category</div>
+
+            <label class="radio-option">
+
+              <input type="radio" name="admissionCategory" value="offline" checked>
+
+              Offline Legacy (Before 2014)
+
+            </label>
+
+            <label class="radio-option">
+
+              <input type="radio" name="admissionCategory" value="2014-onwards">
+
+              2014 Onwards
+
+            </label>
+
+          </div>
+
+          <div class="form-field">
+
+            <label for="traineeName">Trainee Name</label>
+
+            <input type="text" id="traineeName" name="traineeName"
+
+              placeholder="Enter Trainee Name" required>
+
+          </div>
+
+          <div class="form-field">
+
+            <label for="fatherName">Trainee Father's Name</label>
+
+            <input type="text" id="fatherName" name="fatherName"
+
+              placeholder="Enter Trainee Father's Name" required>
+
+          </div>
+
+          <div class="form-field">
+
+            <label for="traineeDOB">Trainee Date of Birth</label>
+
+            <input type="date" id="traineeDOB" name="dob" required>
+
+          </div>
+
+          <div class="certificate-submit">
+
+            <button type="submit">VIEW DETAILS</button>
+
+          </div>
+
+          <p id="certificateMessage" role="status"></p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+    <!-- VERIFICATION MARKSHEET -->
+
+    <section id="verification-marksheet" class="verification-page" hidden>
+
+      <h2 class="verification-heading">Certificate Verification</h2>
+
+      <div class="verification-form-card">
+
+        <form id="verificationMarksheetForm">
+
+          <div class="form-field">
+
+            <label for="verificationScheme">Scheme Type</label>
+
+            <select id="verificationScheme" name="scheme" required>
+
+              <option value="CTS" selected>CTS</option>
+
+            </select>
+
+          </div>
+
+          <div class="verification-search-options">
+
+            <div class="verification-select-title">Please Select</div>
+
+            <label class="radio-option">
+
+              <input type="radio" name="verificationSearchType" value="prn" checked>
+
+              Search through PRN Number
+
+            </label>
+
+            <label class="radio-option">
+
+              <input type="radio" name="verificationSearchType" value="certificate">
+
+              Search through Certificate No
+
+            </label>
+
+          </div>
+
+          <div id="verificationPRNFields" class="verification-input-area">
+
+            <div class="form-field">
+
+              <label for="verificationPRN">PRN Number</label>
+
+              <input type="text" id="verificationPRN" name="prn"
+
+                placeholder="Enter PRN Number" required>
+
+            </div>
+
+          </div>
+
+          <div id="verificationCertificateFields" class="verification-input-area" hidden>
+
+            <div class="form-field">
+
+              <label for="verificationCertificateNo">Certificate No</label>
+
+              <input type="text" id="verificationCertificateNo"
+
+                name="certificateNo" placeholder="Enter Certificate No"
+
+                disabled required>
+
+            </div>
+
+          </div>
+
+          <div class="verification-submit">
+
+            <button type="submit">VIEW DETAILS</button>
+
+          </div>
+
+          <p id="verificationMarksheetMessage" role="status"></p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+    <!-- VERIFICATION CERTIFICATE -->
+
+    <section id="verification-certificate" class="verification-page" hidden>
+
+      <h2 class="verification-heading">Certificate Verification</h2>
+
+      <div class="verification-form-card">
+
+        <form id="verificationCertificateForm">
+
+          <div class="form-field">
+
+            <label for="verificationCertificateScheme">Scheme Type</label>
+
+            <select id="verificationCertificateScheme" name="scheme" required>
+
+              <option value="CTS" selected>CTS</option>
+
+            </select>
+
+          </div>
+
+          <div class="verification-search-options">
+
+            <div class="verification-select-title">Please Select</div>
+
+            <label class="radio-option">
+
+              <input type="radio" name="certificateVerificationSearchType" value="prn" checked>
+
+              Search through PRN Number
+
+            </label>
+
+            <label class="radio-option">
+
+              <input type="radio" name="certificateVerificationSearchType" value="certificate">
+
+              Search through Certificate No
+
+            </label>
+
+          </div>
+
+          <div id="certificateVerificationPRNFields" class="verification-input-area">
+
+            <div class="form-field">
+
+              <label for="certificateVerificationPRN">PRN Number</label>
+
+              <input type="text" id="certificateVerificationPRN" name="prn"
+
+                placeholder="Enter PRN Number" required>
+
+            </div>
+
+          </div>
+
+          <div id="certificateVerificationNoFields" class="verification-input-area" hidden>
+
+            <div class="form-field">
+
+              <label for="certificateVerificationNo">Certificate No</label>
+
+              <input type="text" id="certificateVerificationNo" name="certificateNo"
+
+                placeholder="Enter Certificate No" disabled required>
+
+            </div>
+
+          </div>
+
+          <div class="verification-submit">
+
+            <button type="submit">VIEW DETAILS</button>
+
+          </div>
+
+          <p id="verificationCertificateMessage" role="status"></p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+    <!-- EXAMINATION RESULT -->
+    <section id="exam-result" class="result-page" hidden aria-labelledby="examResultHeading">
+      <h2 id="examResultHeading" class="result-heading">Result</h2>
+      <form id="examResultForm" class="result-form" novalidate>
+        <p class="result-required"><span>*</span>Please Select</p>
+
+        <div class="result-exam-types" role="radiogroup" aria-label="Examination type">
+          <label class="result-radio"><input type="radio" name="examType" value="CTS" checked> <span>CTS</span></label>
+          <label class="result-radio"><input type="radio" name="examType" value="CITS"> <span>CITS</span></label>
+        </div>
+
+        <div class="result-fields-grid">
+          <fieldset class="result-field">
+            <legend><span>*</span>PRN No</legend>
+            <input id="resultPRN" name="prn" type="text" placeholder="Enter PRN No" autocomplete="off" aria-describedby="resultPRNError">
+            <small id="resultPRNError" class="result-field-error">PRN No is required.</small>
+          </fieldset>
+
+          <fieldset class="result-field">
+            <legend><span>*</span>DOB</legend>
+            <input id="resultDOB" name="dob" type="date" aria-describedby="resultDOBError">
+            <small id="resultDOBError" class="result-field-error" hidden>DOB is required.</small>
+          </fieldset>
+        </div>
+
+        <p id="examResultMessage" class="exam-result-message" role="status" aria-live="polite"></p>
+
+        <div class="result-actions">
+          <button class="result-submit" type="submit">SUBMIT</button>
+          <button class="result-cancel" id="resultCancel" type="reset">CANCEL</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- ITI SEARCH -->
+
+    <section id="iti-search" class="iti-search-page" hidden>
+
+      <div class="iti-search-card">
+
+        <div class="iti-search-header">
+
+          <h2>ITI Search</h2>
+
+          <div class="export-wrapper">
+
+            <button type="button" id="exportToggle" class="export-button"
+
+              aria-expanded="false" aria-controls="exportMenu">
+
+              EXPORT AS <span class="export-arrow">⌄</span>
+
+            </button>
+
+            <div id="exportMenu" class="export-menu" hidden>
+
+              <button type="button" id="exportExcel">Excel</button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <form id="itiSearchForm" class="iti-search-form">
+
+          <div class="iti-fields-grid">
+
+            <fieldset class="iti-field">
+
+              <legend>State</legend>
+
+              <select id="itiState" name="state">
+
+                <option value="">Select State</option>
+
+                <option value="Karnataka">Karnataka</option>
+
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+
+                <option value="Telangana">Telangana</option>
+
+                <option value="Tamil Nadu">Tamil Nadu</option>
+
+                <option value="Maharashtra">Maharashtra</option>
+
+                <option value="Kerala">Kerala</option>
+
+                <option value="Delhi">Delhi</option>
+
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+
+              </select>
+
+            </fieldset>
+
+            <fieldset class="iti-field">
+
+              <legend>District</legend>
+
+              <select id="itiDistrict" name="district">
+
+                <option value="">Select District</option>
+
+              </select>
+
+            </fieldset>
+
+            <fieldset class="iti-field">
+
+              <legend>ITI</legend>
+
+              <input id="itiName" name="iti" type="text"
+
+                placeholder="Search ITI" autocomplete="off">
+
+            </fieldset>
+
+            <fieldset class="iti-field">
+
+              <legend>Trade</legend>
+
+              <select id="itiTrade" name="trade">
+
+                <option value="">Select Trade</option>
+
+                <option value="Electrician">Electrician</option>
+
+                <option value="Fitter">Fitter</option>
+
+                <option value="Welder">Welder</option>
+
+                <option value="Turner">Turner</option>
+
+                <option value="Machinist">Machinist</option>
+
+                <option value="COPA">COPA</option>
+
+                <option value="Electronics Mechanic">Electronics Mechanic</option>
+
+                <option value="Mechanic Diesel">Mechanic Diesel</option>
+
+              </select>
+
+            </fieldset>
+
+            <fieldset class="iti-field">
+
+              <legend>Women Category</legend>
+
+              <select id="itiWomen" name="womenCategory">
+
+                <option value="">Select Women Category</option>
+
+                <option value="Women">Women</option>
+
+                <option value="Co-Ed">Co-Ed</option>
+
+              </select>
+
+            </fieldset>
+
+            <fieldset class="iti-field">
+
+              <legend>ITI Type</legend>
+
+              <select id="itiType" name="itiType">
+
+                <option value="">Select ITI Type</option>
+
+                <option value="Government">Government</option>
+
+                <option value="Private">Private</option>
+
+              </select>
+
+            </fieldset>
+
+            <fieldset class="iti-field">
+
+              <legend>ITI Location</legend>
+
+              <select id="itiLocation" name="itiLocation">
+
+                <option value="">Select ITI Location</option>
+
+                <option value="Rural">Rural</option>
+
+                <option value="Urban">Urban</option>
+
+              </select>
+
+            </fieldset>
+
+            <fieldset class="iti-field">
+
+              <legend>Status</legend>
+
+              <select id="itiStatus" name="status">
+
+                <option value="">Select Status</option>
+
+                <option value="Active">Active</option>
+
+                <option value="Inactive">Inactive</option>
+
+              </select>
+
+            </fieldset>
+
+            <fieldset class="iti-field">
+
+              <legend>CSS Scheme</legend>
+
+              <select id="itiCSS" name="cssScheme">
+
+                <option value="">Select CSS Scheme</option>
+
+                <option value="CSS">CSS</option>
+
+                <option value="Non-CSS">Non-CSS</option>
+
+              </select>
+
+            </fieldset>
+
+          </div>
+
+          <div class="iti-search-note">
+
+            <p>
+
+              <strong>Note :</strong>
+
+              Elastic search Filter will prompt the suggestions post entering
+
+              of 3 letters only.
+
+            </p>
+
+            <p class="iti-note-subtext">
+
+              Please select at least one search criteria to view the listing.
+
+            </p>
+
+          </div>
+
+          <div class="iti-search-actions">
+
+            <button type="submit" class="iti-search-button">
+
+              <span aria-hidden="true">⌕</span> SEARCH
+
+            </button>
+
+            <button type="reset" id="itiResetButton" class="iti-reset-button">
+
+              RESET
+
+            </button>
+
+          </div>
+
+          <p id="itiSearchMessage" class="iti-search-message"
+
+            role="status" aria-live="polite"></p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+    <p id="result" class="page-note">
+
+      Visual recreation for development and testing.
+
+      For official certificate verification, use the original DGT portal.
+
+    </p>
+
+  </main>
+
+
+
+<!-- QUICK INSTRUCTOR REGISTRATION POPUP -->
+<div id="instructorModal" class="instructor-modal" hidden>
+  <div class="instructor-modal-backdrop"></div>
+
+  <div class="instructor-modal-box" role="dialog" aria-modal="true"
+       aria-labelledby="instructorModalTitle">
+
+    <div class="instructor-modal-header">
+      <h2 id="instructorModalTitle">Quick Instructor Registration</h2>
+    </div>
+
+    <div class="instructor-modal-content">
+      <p class="instructor-important">
+        <strong>Important:</strong>
+        Your application must be completed and submitted within 7 days.
+        If not submitted within this period, the application will be
+        automatically discarded.
+      </p>
+
+      <label class="instructor-mobile-label" for="instructorMobile">
+        <span>*</span>Mobile Number
+      </label>
+      <input id="instructorMobile" type="tel"
+             placeholder="Enter Mobile Number" maxlength="10"
+             inputmode="numeric">
+
+      <details class="instructor-video-guides">
+        <summary>
+          Helpful Video Guides for Instructor Registration
+          <span class="instructor-plus">+</span>
+        </summary>
+        <div class="instructor-video-content">
+          Helpful video guides will appear here.
+        </div>
+      </details>
+
+      <p id="instructorModalMessage" role="status"></p>
+    </div>
+
+    <div class="instructor-modal-footer">
+      <button type="button" id="instructorCancel">CANCEL</button>
+      <button type="button" id="instructorSendOtp">SEND OTP</button>
+    </div>
+
+  </div>
+</div>
+
+<script src="./script.js" defer></script>
+
+</body>
+</html>
